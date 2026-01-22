@@ -1,0 +1,34 @@
+# 민감한 정보가 담긴 설정 파일
+config.py
+
+# 실행 파일 및 빌드 결과물
+*.exe
+*.exe.*
+dist/
+build/
+*.spec
+
+# 로그 파일
+*.txt
+*.log
+
+# 상태 파일 (개인 모니터링 기록)
+monitor_state.json
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
